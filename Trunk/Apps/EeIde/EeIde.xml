@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name='UnServiceUnObjet'>
+	<menu>
+             <item name='File' text='File'>
+                    <subitem name='Home' text='Home'  action='LoadHome' icone="HomeIcone" />
+                    <subitem name='Quit' text='Quit'  action='Quit' icone="CloseIcone" />
+              </item>
+               <item name='Insert' text='Insert'>
+                    <subitem name='Js' text='Js'  action='ShowInsertJs'  />
+                    <subitem name='Php' text='Php'  action='ShowInsertPhp' />
+               </item>
+               <item name='Depots' text='Depots'>
+                    <subitem name='AddDepot' text='AddDepot'  action='AddDepot'  />
+                    <subitem name='DeleteDepot' text='DeleteDepot'  action='DeleteDepot'  />
+               </item>
+        </menu>
+	<center>
+		<module type='HomeBlock'></module>
+	</center>
+</app>

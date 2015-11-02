@@ -1,0 +1,25 @@
+#wp-calendar td#today, .btn, button, html input[type="button"], input[type="reset"], input[type="submit"], .widget_rss .rss-date,
+.widget-title:before, .st-blog .post-meta, .portfolio-list:hover .portfolio-inner, .portfolio-container:hover .portfolio-inner,
+.portfolio-container .post-category, .portfolio-list .post-category, blockquote, blockquote.pull-left, blockquote.pull-right, 
+.st-dropcap, .st-dropcap2, .st-highlight, .table th, div.ctabox-button a, .st-icon.circle, .st-icon.rounded, .style-1 .header-call.inline li:hover,
+.st-icon.box, .scrollTop a, .st-tabs .tab-title li.active a, .st-tabs .tab-title li.active a:after, .st-heading span:after,
+.iconbox-top:hover .iconbox-icon, .portfolio-single .portfolio-meta div, .st-button, .progress .color-default, .progress .bar,
+.ctabox-content{
+	background-color:#239ed7;
+}
+#sticky-header .primary-menu li.current_page_item a, 
+#sticky-header .primary-menu li.current_page_item a:hover, 
+#sticky-header .primary-menu li.current_page_ancestor > a,
+#header .primary-menu li.current_page_item a, 
+#header .primary-menu li.current_page_item a:hover, 
+#header .primary-menu li.current_page_ancestor > a{
+	background-color:#239ed7 !important;
+}
+a:hover, a:focus, #footer a:hover, .st-pricing .plan-content ul li span, a.more-link:hover, .post-meta span a:hover, #top-wrapper a:hover,
+.blog-list .post-title a:hover, .widget_nav_menu ul li.current-menu-item a, .accordion-title:hover, .iconbox-top .iconbox-icon{ 
+	color:#239ed7;
+}
+.widget_tag_cloud a:hover, #footer .widget_tag_cloud a:hover, 
+.portfolio-filter li a:hover, .st-heading span, a.more-link:hover{
+	border-color:#239ed7;
+}

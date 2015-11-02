@@ -1,0 +1,10 @@
+<ACTION>
+	<ELEMENT>JHomAction</ELEMENT>
+	<ELEMENT>Action</ELEMENT>
+	<ELEMENT>UserAction</ELEMENT>
+	<ELEMENT>AjaxAction</ELEMENT>
+	<ELEMENT>PageAction</ELEMENT>
+	<ELEMENT>ModuleAction</ELEMENT>
+	<ELEMENT>VerifyAction</ELEMENT>
+	<ELEMENT>EemmysAction</ELEMENT>
+</ACTION>

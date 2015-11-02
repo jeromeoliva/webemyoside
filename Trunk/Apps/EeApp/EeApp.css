@@ -1,0 +1,4 @@
+
+#appRunEeApp .App, #appRunEeApp.file, #appRunEeApp .headApp {border-top : 1px solid grey; text-align: left; }
+#appRunEeApp .App span , #appRunEeApp.file span, #appRunEeApp .headApp  span {display:inline-block ;margin : 5px; width : 180px;}
+#appRunEeApp .App .name #appRunEeApp.file name{cursor:pointer}

@@ -1,0 +1,361 @@
+/*
+* Css de la partie Bureau
+*/
+
+/*---------- Pop in de chargement ------------
+---------------------------------------------*/
+#dvLoading{
+    
+  position:relative;
+  margin:auto;
+  width:800px;
+  height:200px;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.33);
+  padding-top: 70px;
+}
+
+
+/*--------- Tableau de bord --------
+-----------------------------------------*/
+#dashBoard div{margin:5px}
+
+#dashBoard {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.33);
+    margin: 80px 0;
+    padding: 10px 30px;
+    vertical-align: top;
+}
+
+#dashBoard:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid rgba(255, 255, 255, 0.33);
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+
+#dashBoard:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid rgba(255, 255, 255, 0.33);
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+}
+
+/*---------------- Applications -------------------
+--------------------------------------------------------*/
+.App {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.33);
+    margin: 80px 0;
+    padding: 10px 30px;
+    vertical-align: top;
+}
+
+.App:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid rgba(255, 255, 255, 0.33);
+    border-right: 1500px solid transparent;
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+
+.App:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid rgba(255, 255, 255, 0.33);
+    border-right: 1500px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+}
+ 
+.App #dvDesktop 
+{
+     background-color: rgba(125, 125, 125, 0.75);
+     padding:10px;
+     color:white;
+}
+
+.App #dvDesktop input[type=text] , select, input[type=email]
+{
+    color :grey;
+}
+
+.App #dvDesktop input[type=text], .App #dvDesktop input[type=email] 
+{
+    width:250px;
+    margin:5px;
+    border-radius: 5px;
+    padding:5px;
+    height:40px;
+}
+.App #dvDesktop textarea{
+    color:grey;
+}
+
+.App .alignRight{
+    text-align: right;
+}
+
+.App .alignCenter{
+    text-align: center;
+}
+
+/* Barre d'outil */
+#top{width:1200px; height:40px;position : fixed; top : 0px; left : 150px; background-color: #1673FF;color: white; text-align: left; padding:5px;}
+
+/* application en attente */
+#tdApp img {width:25px;border-left:1px solid white; padding:5px;cursor:pointer}
+
+/* menu */
+#toolBar{border:1px solid #1EACFF;height:50px; background:white;text-align:left;vertical-align:middle;  margin:2px;padding:2px;margin-bottom :10px }
+#toolBar ul li{display:inline;}
+#toolBar ul li img{width:50px}
+#toolBar b{font-size:2em;margin:5px;cursor:pointer}
+
+/*  Menu des applications */
+.menuApp{background-color :#24D6FF; margin:0px}
+.headItem a{color: #6B6854;	z-index: 9999;margin:10px}
+.sub{overflow : hidden;visibility : hidden;z-index:9999;border: 1px solid grey;background-color: white;box-shadow:0 0 3px grey;width : 150px;position : absolute;top:25px}
+.subitem{text-align:left;}
+.subitem img{border-right : 1px solid grey;width : 20px;padding : 5px;marging :0px;background: url("Images/toolbar.png");border-radius: 0 0 8px 0;}
+.subitem span{margin:5px;}
+
+/*  Barre d'outil */
+#appToolBar{  background: url("images/header.gif") repeat-x scroll center top #fff;border: 1px solid #fff;border-radius: 6px 6px 0 0 ;padding: 5px; color  : white; width:100%}
+#appToolTip{ margin : 0px}
+#appToolBar i {cursor:pointer}
+.menuApp {width:98%}
+
+/*  bouton des applications */
+#Tools 
+{
+   padding:5px;
+   background-color: white;
+}
+
+/*---------    pop in--------------
+----------------------------------------*/
+.popup
+{
+    background-color: rgba(255, 255, 255, 0.55);
+    padding:10px;
+    text-align: center;
+    top:10%;
+    left:10%;
+}
+
+.popup input[type=text], .popup select{
+     width : 400px;
+     margin:5px;
+}
+.popup textarea{
+    
+    width : 400px;
+    height : 250px;
+    margin:5px;
+}
+
+/*-------------- Div des auto complete Box ------------
+-------------------------------------------------------*/
+#divResult {padding:5px; background: none repeat scroll 0 0 white;border: 1px solid grey;border-radius: 6px 6px 6px 6px;height: 200px;overflow: auto;position: absolute;z-index: 10040;}
+#divResult ul {text-align:left}
+
+/*------------- Message d'information / d'erreur -----------
+-----------------------------------------------------------*/
+
+.success {
+    
+       background-image: linear-gradient(to bottom, #dff0d8 0px, #c8e5bc 100%);
+    background-repeat: repeat-x;
+    border-color: #b2dba1;
+     padding : 5px;
+    color: #3c763d;
+}
+
+.error {
+    background-image: linear-gradient(to bottom, #f2dede 0px, #e7c3c3 100%);
+    background-repeat: repeat-x;
+    border-color: #dca7a7;
+    padding : 5px;
+     color: #a94442;
+}
+
+/*---------- Widget de la page d'accueil ---------------------
+-------------------------------------------------------------*/
+.widget{
+      background-color: rgba(155, 155, 155, 0.55);
+      height:150px;
+      overflow: auto;
+} 
+.widget .title
+{
+    background-color: rgba(0, 255, 00, 0.55);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+
+
+#dvMyApp
+{
+   background-color: rgba(155, 155, 155, 0.55); 
+}
+
+/*------------------ Onglet -------------------------------
+----------------------------------------------------------*/
+
+.VTabStripEnabled, .VTabStripDisabled, .TabStripEnabled, .TabStripDisabled{
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+	position: relative;
+	top:0;
+	left:0;
+	line-height:100%;
+	background:#1EACFF;
+	-webkit-box-shadow: inset 0px -3px 3px rgba(0,0,0,0.03);
+	-moz-box-shadow: inset 0px -3px 3px rgba(0,0,0,0.03);
+	box-shadow: inset 0px -3px 3px rgba(0,0,0,0.03);
+	border:1px solid #e5e5e5;
+	border-bottom:0;
+	font-size:0.9em;
+	zoom:1;
+	width:95%;
+	padding : 10px;
+        border-radius : 6px;
+}
+
+.TabStripEnabled, .TabStripDisabled
+{
+	display:inline;padding : 5px;
+        cursor: pointer;
+}
+
+.VTabStripEnabled, .TabStripEnabled
+{
+	background:#24D6FF;
+        cursor: pointer;
+}
+
+.VTabStripDisabled, .TabStripDisabled 
+{
+  background: url("images/header.gif") repeat-x scroll center top #fff;border: 1px solid #fff;border-radius: 6px;padding: 10px; color  : grey;
+  text-align:left;
+   cursor: pointer;
+}
+
+.VTabStripEnabled , .VTabStripDisabled:hover,  .TabStripEnabled ,  .TabStripDisabled:hover
+{
+  background: url("images/headerSelected.gif") repeat-x scroll center top #fff;border: 1px solid #fff;border-radius: 6px;padding: 10px; color  : white;
+  text-align:left;
+}
+
+.tabDisabled{
+    padding:5px;
+}
+
+/*-------------- FIN ONGLET --------------------
+---------------------------------------------------*/
+
+/*-------------- Mise en forme des titres -------------------------
+-------------------------------------------------------------------*/
+.titleBlue{
+   background-color: rgba(0,0, 255, 0.55);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px 5px;  
+}
+
+.slice{
+   padding:5px; 
+}
+/*------------------ Mise en form des lignes ---------------------
+-------------------------------------------------------------------*/
+.lineClair{
+    background-color: #bababa;
+    
+}
+
+.lineFonce{
+    background-color: #aeaeae;
+}
+
+/*-------------- Mise en forme des champs -------------------------
+-------------------------------------------------------------------*/
+.name{
+    font-style: italic;
+}
+
+.date{
+    
+    color:#1673FF;
+    font-size: small;
+}
+
+/* tableau  de donnée */
+.grid {
+    border : 1px solid grey
+}
+
+.grid tr:nth-child(odd){
+   background-color: #bababa;
+}
+
+.grid tr:nth-child(even){
+   background-color: #aeaeae;
+}
+
+.grid th{
+    background-color: rgba(0,0, 255, 0.55);
+    padding: 5px 5px; 
+    text-align: center;
+} 
+
+.grid td{
+    padding : 5px;
+    
+}
+.grid .icon-edit
+{
+   display: inline-block;
+}
+
+/*---------- ICONE FONT AWERSOME A REMPLACER --------------
+----------------------------------------------------------*/
+.icon-edit, 
+.icon-remove,
+.icon-group,
+.icon-ok,
+.icon-expand,
+.icon-plus-sign,
+.icon-off,
+.icon-exclamation,
+.icon-question,
+.icon-comment,
+.icon-bug,
+.icon-folder-open,
+.icon-gear,
+.icon-home,
+.icon-search,
+.icon-exchange,
+.icon-share,
+.icon-shopping-cart,
+.icon-save,
+.icon-group,
+.icon-zoom-in,
+.icon-list
+{cursor:pointer}
+
+

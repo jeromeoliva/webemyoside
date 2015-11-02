@@ -1,0 +1,26 @@
+#appRunEeIde .cadre {border : 1px solid #ababab}
+
+/*   Hauteur       */
+#appRunEeIde .row_20{height:220px}
+#appRunEeIde .row_30{height:300px}
+#appRunEeIde .row_40{height:400px}
+#appRunEeIde .row_60{height:600px}
+
+
+#appRunEeIde #lstElement{overflow: auto; }
+#appRunEeIde #lstEditor{overflow: auto;width:800px;height:580px}
+#appRunEeIde #lstEditor textarea, #IdeTemplateEditor textarea {width:780px; margin:0px; background-color: black; color:white;}
+#IdeTemplateEditor textarea{float:left}
+#IdeTemplateEditor{display:inline-block}
+#IdeBrowser{ border:1px solid grey;display:inline-block}
+#tbCssFiles{background-color: black; color:yellow}
+#template{height:250px}
+
+#appRunEeIde #tsEditor textarea{height:450px}
+
+#appRunEeIde  #Tools{text-align:left; border-bottom: 1px solid grey; -moz-box-shadow: 10px 10px 5px 0px #c0c0c0;-webkit-box-shadow: 10px 10px 5px 0px #c0c0c0;-o-box-shadow: 10px 10px 5px 0px #c0c0c0;box-shadow: 10px 10px 5px 0px #c0c0c0;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=134, Strength=5);-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+
+#appRunEeIde .projet, #appRunEeFile .file, #appRunEeFile .headFolder {border-top : 1px solid grey; text-align: left; }
+#appRunEeIde .folder span , #appRunEeFile .file span, #appRunEeFile .headFolder  span {display:inline-block ;margin : 5px; width : 180px;}
+#appRunEeIde .folder .name, #appRunEeFile .file name{cursor:pointer}

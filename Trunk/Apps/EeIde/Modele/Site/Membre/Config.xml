@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<CONFIGS>
+	<INCLUDE>Include.xml</INCLUDE>
+	<JDIRECTORY>../JHom/</JDIRECTORY>
+	<GROUP>2</GROUP>
+	<SKIN>CooltureInstitute</SKIN>
+	<LANG>Fr</LANG>
+	<VERSION>V.2.2.0.0</VERSION>
+	<SITENAME>CooltureInstitute</SITENAME>
+	<TYPETEXTAREA>NONE</TYPETEXTAREA>
+</CONFIGS>

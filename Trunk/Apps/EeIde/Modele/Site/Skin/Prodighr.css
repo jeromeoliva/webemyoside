@@ -1,0 +1,55 @@
+/*Fichier Projet Prodighr */ 
+#appRunProdighr #appCenter{background :#bebebe}
+.backBlack {background : black}
+
+#prodighrDesktopTool{border : 1px solid red;position:relative; top:0px;left:0px;width:200px;height:300px ;float:left}
+#prodighrDesktopTool img{cursor :pointer;}
+#prodighrDesktop{position:relative; top:0px;left:200px;width:80%; text-align:left;margin:5px;height:100%}
+#prodighrMenu{border:1px solid green; height:30px; position:relative;bottom:0px;left:0px;float:none;clear:both}
+#prodighrNotification{border:1px solid yellow; position:relative;top:0px;right:0px;width:150px;float:right; display:none}
+
+.prodighrPopin{position:absolute;top : 0px; left:200px;width :400px; height :200px ;z-index:9990;border:10px solid white;box-shadow:0 0 3px grey;background:white;text-align:center;}
+.prodighrPopin{display:none;margin :auto;}	
+ 
+.line{display:inline-block;}
+
+/*    Largeur      */
+.col_1{width:10%;}
+.col_2{width : 20%;}
+.col_4{width : 40%;}
+.col_8{width :80%;}
+.col_9{width :90%;}
+.col_10{width :100%;}
+
+/*   Hauteur       */
+.row_20{height:220px}
+.row_30{height:300px}
+
+
+.right{text-align:right;}
+.center{text-align:center;}
+
+.maxWidth{width :100%;}
+
+.sub{width:250px}
+.subitem{width:200px}
+.subitem img{width:30px;}
+
+/*  Couleur       */
+.orange{color : #F4a20e}
+.orangeHigh{color : #F47406}
+.red{color : #f14408}
+.marron{color: #a32004}
+.grey{color : grey; background-color:none;}
+
+/*   Spécifique          */
+#dvImg img{cursor:pointer;}
+#dvImg img:hover { width :205px}
+
+
+/* Partie entreprise */
+#EntrepriseMenu{background : black;}
+#EntrepriseMenu ul li {display:inline;margin:10px;cursor:pointer}
+
+/* Partie test */
+.StepSelected {font-style: oblique; text-decoration: underline }

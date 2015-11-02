@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<BLOCK>
+	<ELEMENT DynamicAdd="False">JHomBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">FormBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">LogBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">PassBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">LangBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">LinkBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">DataTextBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">RegistrationBlock</ELEMENT>
+	<ELEMENT DynamicAdd="False">ProfilBlock</ELEMENT>
+        <ELEMENT DynamicAdd="False">ProfilLightBlock</ELEMENT>
+        <ELEMENT DynamicAdd="False">StatBlock</ELEMENT>
+        <ELEMENT DynamicAdd="False">AjaxFormBlock</ELEMENT>
+        <ELEMENT DynamicAdd="False">AuthentificationBlock</ELEMENT>
+        <ELEMENT DynamicAdd="False">MessageContactBlock</ELEMENT>
+</BLOCK>

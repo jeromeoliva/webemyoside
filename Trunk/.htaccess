@@ -1,0 +1,14 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule ^sitemap.xml$ sitemap.php [L]
+
+RewriteRule ^accueil\.html$ index.php?Page=accueil [L]
+RewriteRule ^([A-Za-z]+)-([A-Za-z_0-9]+)\.html$ index.php?Page=$1&idEntite=$2 [L]
+
+ErrorDocument 404 /index.php
+
+RewriteRule ^([A-Za-z]+)\.html$ index.php?Page=$1 [L]
+
+RewriteRule ^([A-Za-z]+)\.html$ index.php?Page=$1 [L]

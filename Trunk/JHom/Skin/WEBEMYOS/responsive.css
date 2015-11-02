@@ -1,0 +1,150 @@
+  /* Large desktop */
+@media (min-width: 1200px) {
+	#st-wrapper.boxed{
+		width:1230px;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#st-wrapper.boxed{
+		width:764px;
+	}
+	
+	.primary-menu, .style-3 .st-social{
+		display:none;
+	}
+	.style-3 .header-call{
+		position: relative;
+		top:0;
+		right:auto;
+	}
+	.style-2 .responsive-menu{
+		padding:7px 14px;
+		margin:4px 0;
+	}
+	.responsive-menu{
+		display:block;
+		margin-top:10px;
+	}
+	.st-blog .post-thumb{
+		height:auto !important;
+	}
+	.st-blog .post-meta{
+		font-size:10px;
+	}
+	.team-photo{
+		width:75px;
+		height:75px;
+	}
+	
+	.st-column.span6 > .st-ctabox .ctabox-content{
+		display:block;
+		margin-right:0;
+	}
+	.st-column.span6 > .st-ctabox div.ctabox-button{
+		position:relative;
+		padding:20px;
+		margin:0 !important;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	body{
+		padding:0;
+	}
+	#st-wrapper.boxed{
+		width:100%;
+		margin:0 auto;
+	}
+	.container{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.logo, .header-call{
+		padding:25px 0;
+	}
+	.header-call{
+		top:0;
+	}
+	.primary-menu, #header .st-social, #secondary-nav{
+		display:none;
+	}
+	.responsive-menu, .ctabox-content{
+		display:block;
+	}
+	.ctabox-content{
+		margin-right:0;
+	}
+	div.ctabox-button{
+		position:relative;
+		padding:20px;
+		margin:0 !important;
+	}
+	.header-call{
+		margin:0;
+		padding:5px 0;
+	}
+	#primary-nav, .header-call, .style-2 .header-call, .style-3 .header-call{
+		position: relative;
+		top:0;
+		right:auto;
+	}
+	#primary-nav, .style-2 .header-call, .style-3 .header-call{
+		margin:0;
+		margin-bottom:10px;
+	}
+	#top-wrapper, .logo, #copyright-wrapper, .style-2 .header-call{
+		text-align:center;
+	}
+	.style-2 #bottom-wrapper, .style-3 #bottom-wrapper{
+		padding-top:10px;
+	}
+	
+	.st-client ul.inline li{
+		width:32.62%;
+	}
+	.st-pricing.c4 .plan-container{
+		width: 50%;
+	}
+	.st-blog .post-thumb{
+		height:auto !important;
+	}
+	.team-photo{
+		width:75px;
+		height:75px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body{
+		padding:0;
+	}
+	#st-wrapper.boxed{
+		width:100%;
+	}
+	.container{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.style-2 .header-call, .style-3 .header-call{
+		display:block;
+	}
+	
+	.st-client ul.inline li{
+		width:48.4%;
+	}
+	
+	.st-pricing.c4 .plan-container, .st-pricing.c3 .plan-container{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.team-photo{
+		width:75px;
+		height:75px;
+	}
+}

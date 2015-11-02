@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<app name='EeBug'>
+	<menu>
+		<item name='File' text='File'>
+			<subitem name='Quit' text='Quit'  action='Quit' img='../Images/icones/exit.png'/>
+		</item>
+		<item name='?' text='?'>
+			<subitem name='Help' action='Help' img='../Images/icones/info.png' />
+		</item>
+	</menu>
+	<left>
+		<module type='ComunityCategoryBlock'>
+			<param name='category' value='Profil'/>
+		</module>
+	</left>
+	<center>
+		<FieldSet name='fsCenter' >
+		</FieldSet>
+	</center>
+</app>

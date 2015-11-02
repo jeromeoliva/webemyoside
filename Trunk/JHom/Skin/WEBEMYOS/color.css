@@ -1,0 +1,65 @@
+                                                              /*=========================================================================
+  layout
+//=======================================================================*/
+#st-wrapper{
+	background-color:#fff;
+}
+
+/*=========================================================================
+  shortcodes
+//=======================================================================*/
+#main-wrapper .st-social a,
+.style-3 .st-social a,
+#bottom-wrapper .st-social a{
+	background-color:#e9e9e9;
+}
+
+/*======*/
+.post-meta span, .post-meta span a, .blog-tags a, .st-blog .post-category a, .team-meta span, .testimonial-meta span, 
+.st-testimonial-slider .testimonial-meta span, .pagination a, .pagination span, .post-nav a{
+	
+}
+h1, h2, h3, h4, h5,  a,.blog-list .post-title a, .pagination span, .testimonial-meta strong, 
+.st-testimonial-slider .testimonial-meta strong, .widget_rss cite{
+	color:#444;
+}
+#title-wrapper, #calendar_wrap, .widget_rss li, .wp-caption, .iconbox-top, #slider-wrapper,
+.st-blog .blog-container, .portfolio-inner, .table tr:nth-child(even), .testimonial-content, .st-testimonial .testimonial-content:before,
+.st-tabs .tab-title li a, .st-tabs .tab-container, .testimonial-meta:before, .st-accordion .accordion-title:hover, 
+.st-accordion .accordion-title.active, .progress, .st-pricing .plan-package, .pagination span, .sidebar .widget_nav_menu .menu{
+	background-color:#fcfcfc;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], 
+input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], 
+input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+
+border:1px solid #C0C0C0;
+resize:none;
+
+}
+
+#title-wrapper, .st-tabs .tab-container, .iconbox-top, .style-2 #bottom-wrapper, .style-3 #bottom-wrapper,
+.testimonial-content, .st-testimonial-slider .testimonial-meta:before, .st-accordion .accordion-title, .toggle-content, .accordion-content,
+.widget_tag_cloud a, .portfolio-filter li a, .st-client li, .st-heading, .blog-list .post-title a:hover, .post-edit-link, .post-nav,
+.sidebar .widget_nav_menu .menu, .sidebar .widget_nav_menu .menu li, .iconbox-top .iconbox-icon, .team-container, a.more-link, .style-3 .header-call.inline li,
+.style-3 .header-call.inline li i{
+	border-color:#f4f4f4; 
+}
+
+#footer #calendar_wrap, #footer .widget_rss li, #footer .wp-caption,
+#footer select, #footer textarea, #footer input[type="text"], #footer input[type="password"], #footer input[type="datetime"], #footer input[type="datetime-local"], 
+#footer input[type="date"], #footer input[type="month"], #footer input[type="time"], #footer input[type="week"], #footer input[type="number"], 
+#footer input[type="email"], #footer input[type="url"], #footer input[type="search"], #footer input[type="tel"], #footer input[type="color"], 
+#footer .uneditable-input{
+	color:#999;
+	background-color:rgba(0, 0, 0, 0.15);
+}
+
+#footer .widget_tag_cloud a, #footer .portfolio-filter li a,
+#footer select, #footer textarea, #footer input[type="text"], #footer input[type="password"], #footer input[type="datetime"], #footer input[type="datetime-local"], 
+#footer input[type="date"], #footer input[type="month"], #footer input[type="time"], #footer input[type="week"], #footer input[type="number"], 
+#footer input[type="email"], #footer input[type="url"], #footer input[type="search"], #footer input[type="tel"], #footer input[type="color"], 
+#footer .uneditable-input{
+	border-color:rgba(0, 0, 0, 0.1);
+}

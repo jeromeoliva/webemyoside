@@ -1,0 +1,45 @@
+<CONTROL>
+	<ELEMENT>JHomControl</ELEMENT>
+	<ELEMENT>Libelle</ELEMENT>
+	<ELEMENT DynamicAdd="True">Text</ELEMENT>
+	<ELEMENT DynamicAdd="True">Image</ELEMENT>
+	<ELEMENT DynamicAdd="True">Icone</ELEMENT>
+	<ELEMENT DynamicAdd="False">Menu</ELEMENT>
+	<ELEMENT DynamicAdd="False">NumericBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">Hidden</ELEMENT>
+	<ELEMENT DynamicAdd="False">TextArea</ELEMENT>
+	<ELEMENT DynamicAdd="False">Button</ELEMENT>
+	<ELEMENT DynamicAdd="False">TelBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">ListBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">ActionControl</ELEMENT>
+	<ELEMENT DynamicAdd="False">TextBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">PassWord</ELEMENT>
+	<ELEMENT DynamicAdd="False">DateBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">DateTimeBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">EmailBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">Grid</ELEMENT>
+	<ELEMENT DynamicAdd="False">TabStrip</ELEMENT>
+	<ELEMENT DynamicAdd="False">EntityGrid</ELEMENT>
+	<ELEMENT DynamicAdd="False">EntityListBox</ELEMENT>
+	<ELEMENT DynamicAdd="True">Link</ELEMENT>
+	<ELEMENT DynamicAdd="False">MenuV</ELEMENT>
+	<ELEMENT DynamicAdd="False">CheckBox</ELEMENT>
+	<ELEMENT DynamicAdd="False">UploadFile</ELEMENT>
+        <ELEMENT DynamicAdd="False">UploadAjaxFile</ELEMENT>
+	<ELEMENT>AdvancedText</ELEMENT>
+	<ELEMENT>GridColumn</ELEMENT>
+	<ELEMENT>EntityGridColumn</ELEMENT>
+	<ELEMENT>ToolTip</ELEMENT>
+	<ELEMENT>LinkAriane</ELEMENT>
+	<ELEMENT>ListCheckBox</ELEMENT>
+	<ELEMENT>LinkImage</ELEMENT>
+	<ELEMENT>RadioButton</ELEMENT>
+	<ELEMENT>Captcha</ELEMENT>
+	<ELEMENT>AutoCompleteBox</ELEMENT>
+	<ELEMENT>FieldSet</ELEMENT>
+	<ELEMENT>VTab</ELEMENT>
+        <ELEMENT>StarCheckBox</ELEMENT>
+        <ELEMENT>BsTextBox</ELEMENT>
+        <ELEMENT>BsEmailBox</ELEMENT>
+        <ELEMENT>BsPassword</ELEMENT>
+</CONTROL>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<app name='EeInfo'>
+	<menu>
+		<item name='File' text='File'>
+			<subitem name='Quit' text='Quit'  action='Quit' img = '../Images/icones/exit.png'/>
+		</item>
+	</menu>
+	<center>
+		<Text value='!infoTextAccueil'>Votre programme</Text>
+	</center>
+</app>

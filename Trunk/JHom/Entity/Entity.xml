@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ENTITY>
+  <ELEMENT>JHomEntity</ELEMENT>
+  <ELEMENT>Langs</ELEMENT>
+  <ELEMENT>Country</ELEMENT>
+ <ELEMENT>City</ELEMENT>
+  <ELEMENT>Section</ELEMENT>
+  <ELEMENT>Group</ELEMENT>
+  <ELEMENT>User</ELEMENT>
+  <ELEMENT>Bug</ELEMENT>
+  <ELEMENT>Apps</ELEMENT>
+  <ELEMENT>DataText</ELEMENT>
+  <ELEMENT>Stat</ELEMENT>
+  <ELEMENT>Widgets</ELEMENT>
+  <ELEMENT>Comment</ELEMENT>
+</ENTITY>

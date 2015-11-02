@@ -1,0 +1,6 @@
+<TEMPLATE>
+	<ELEMENT>JHomTemplate</ELEMENT>
+	<ELEMENT>ListEditTemplate</ELEMENT>
+	<ELEMENT>EditTemplate</ELEMENT>
+	<ELEMENT>MessageTemplate</ELEMENT>
+</TEMPLATE>

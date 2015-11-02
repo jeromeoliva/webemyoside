@@ -1,0 +1,45 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule ^Accueil\.html$ /index.php [L]
+RewriteRule ^sitemap.xml$ /sitemap.php [L]
+
+
+RewriteRule ^Help-([A-Za-z]+)\.html$ http://localhost/NeedExpert/index.php?Page=help&type=$1 [L]
+RewriteRule ^Help-([A-Za-z]+)-([A-Za-z]+)\.html$ http://localhost/NeedExpert/index.php?Page=help&type=$1&Name=$2 [L]
+
+RewriteRule ^Applications-([A-Za-z_]+)\.html$ http://localhost/NeedExpert/index.php?Page=Applications&Name=$1&idEntite=$2 [L]
+RewriteRule ^Widgets\.html$ http://localhost/NeedExpert/index.php?Page=Gadgets [L]
+RewriteRule ^Widgets-([A-Za-z_]+)\.html$ http://localhost/NeedExpert/index.php?Page=Gadgets&Name=$1&idEntite=$2 [L]
+RewriteRule ^Comunitys-([A-Za-z_]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=Comunitys&Name=$1&idEntite=$2 [L]
+RewriteRule ^Games-([A-Za-z_0-9]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=Games&Name=$1&idEntite=$2 [L]
+RewriteRule ^Articles-([A-Za-z_]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=Articles&Name=$1&idEntite=$2 [L]
+
+RewriteRule ^Annuaire\.html$ http://localhost/NeedExpert/index.php?Page=Annuaire [L]
+RewriteRule ^Annuaire-([A-Za-z_]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=Annuaire&Category=$1&idEntite=$2 [L]
+
+RewriteRule ^developper-([A-Za-z_]+)\.html$ http://localhost/NeedExpert/index.php?Page=developper&Theme=$1 [L]
+RewriteRule ^inscription-([A-Za-z_]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=inscription&Theme=$1&idSite=$2 [L]
+
+RewriteRule ^([A-Za-z]+)\.html$ http://localhost/NeedExpert/index.php?Page=$1 [L]
+RewriteRule ^app-([A-Za-z_]+)-([0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=app&app=$1&Id=$2 [L]
+
+RewriteRule ^actions-([A-Za-z_]+)-([A-Za-z_0-9]+)\.html$ http://localhost/NeedExpert/index.php?Page=actions&a=$1&i=$2 [L]
+
+RewriteRule ^([A-Za-z]+)\.html$ http://localhost/NeedExpert/index.php?Page=$1 [L]
+
+ErrorDocument 404 /index.php
+
+<Files Config.xml >
+AuthUserFile /kunden/homepages/45/d297230395/htpasswd
+AuthName AccesRestreint
+AuthType Basic
+
+order deny,allow
+deny from all
+allow from .enst.fr
+require group intranet
+satisfy all
+</Files>
+

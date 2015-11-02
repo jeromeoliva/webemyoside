@@ -1,0 +1,13 @@
+<UTILITY>
+    <ELEMENT>JDate</ELEMENT>
+    <ELEMENT>JEmail</ELEMENT>
+    <ELEMENT>JFile</ELEMENT>
+    <ELEMENT>JFormat</ELEMENT>
+    <ELEMENT>JImage</ELEMENT>
+    <ELEMENT>JMessage</ELEMENT>
+    <ELEMENT>JPacker</ELEMENT>
+    <ELEMENT>JScript</ELEMENT>
+    <ELEMENT>JSerialization</ELEMENT>
+    <ELEMENT>JUploader</ELEMENT>
+    <ELEMENT>JUrl</ELEMENT>
+</UTILITY>
